@@ -12,7 +12,7 @@ An intermediate block receives an image x and outputs an image x′ . Each block
 
 x′ = a1C1(x) + a2C2(x) + . . . + aLCL(x),
 
-where a = [a1, a2, . . . , aL]^T is a vector that is also computed by the block. Note that each convolutional layer in a block receives the same input image x (and not the output of another convolutional layer within the block)
+where $(a = [a1, a2, . . . , aL]^T)$ is a vector that is also computed by the block. Note that each convolutional layer in a block receives the same input image x (and not the output of another convolutional layer within the block)
 
 Suppose that the input image x has c channels each channel of *x* is computed and stored into a c-dimensional vector m. The vector m is the input to a fully connected layer that outputs the vector a. Note that this fully connected layer should have as many units as there are convolutional layers in the block.
 Each block in the basic architecture may have a different number of convolutional layers, and each convolutional
