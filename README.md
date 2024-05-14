@@ -41,3 +41,14 @@ The model that was employed in this project has 4 intermediate blocks and each b
 The class defined for the output block is called “FinalModel”. In this class, the class defined for creating intermediate blocks is used to create the intermediate blocks. For using these blocks sequentially nn.Sequential is used so that the output of each block will be an input of the next.
 
 After going through the intermediate blocks, the average results of each channel will be processed by two fully connected layers. The output of these layers should have the same number of channels as the classes in our dataset, which in this case is 10.
+
+# Final result
+
+The best accuracy achieved by this model is **96.708%** for training dataset and for this training accuracy the test accuracy is **85.31%**.
+The figures for cross entropy loss for each training batch and train and test accuracy for epochs are also shown respectively.
+
+![image](https://github.com/dibahk/CIFAR-10-Image-Classification/assets/98983201/2f8a237b-d4ac-42f3-8c0c-8a14cffa2a05)
+
+![image](https://github.com/dibahk/CIFAR-10-Image-Classification/assets/98983201/55fa5a62-451b-44dd-9233-43264395cf68)
+
+
