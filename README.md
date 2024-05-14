@@ -4,7 +4,7 @@ The goal of this project is to implement a Neural Network to predict the image c
 # Basic architecture
 The architecture is composed of a sequence of intermediate blocks B1, B2, . . . , BK that are followed by an output block O, as shown in the following figure. These blocks are detailed in the following subsections.
 
-<img src="[<source_url>](https://github.com/dibahk/CIFAR-10-Image-Classification/assets/98983201/c718381b-467d-4fd4-8c44-aa07f13c461c)" width="100" height="200">
+<img src="(https://github.com/dibahk/CIFAR-10-Image-Classification/assets/98983201/c718381b-467d-4fd4-8c44-aa07f13c461c)" width="100" height="200">
 
 ![image](https://github.com/dibahk/CIFAR-10-Image-Classification/assets/98983201/c718381b-467d-4fd4-8c44-aa07f13c461c) 
 
@@ -50,6 +50,9 @@ The best accuracy achieved by this model is **96.708%** for training dataset and
 The figures for cross entropy loss for each training batch and train and test accuracy for epochs are also shown respectively.
 
 ![image](https://github.com/dibahk/CIFAR-10-Image-Classification/assets/98983201/2f8a237b-d4ac-42f3-8c0c-8a14cffa2a05)
+
+<img src="<![image](https://github.com/dibahk/CIFAR-10-Image-Classification/assets/98983201/b8fea5d2-2dda-409a-9ffb-d8e3b3893cef)
+
 
 ![image](https://github.com/dibahk/CIFAR-10-Image-Classification/assets/98983201/55fa5a62-451b-44dd-9233-43264395cf68)
 
