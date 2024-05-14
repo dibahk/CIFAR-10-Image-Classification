@@ -4,7 +4,7 @@ The goal of this project is to implement a Neural Network to predict the image c
 # Basic architecture
 The architecture is composed of a sequence of intermediate blocks B1, B2, . . . , BK that are followed by an output block O, as shown in the following figure. These blocks are detailed in the following subsections.
 
-![image](https://github.com/dibahk/CIFAR-10-Image-Classification/assets/98983201/c718381b-467d-4fd4-8c44-aa07f13c461c)
+![image](https://github.com/dibahk/CIFAR-10-Image-Classification/assets/98983201/c718381b-467d-4fd4-8c44-aa07f13c461c) { width: 200px; }
 
 ## Intermediate block 
 
