@@ -24,3 +24,15 @@ Suppose that the input image *x* has c channels. In order to compute the vector 
 channel of *x* is computed and stored into a c-dimensional vector **m**. The vector **m** is the input to a sequence of
 zero or more fully connected layer(s) that output the vector **o**.
 
+# Implemented architecture
+
+The model that was employed in this project has 4 intermediate blocks and each block is consisted of 3 parallel Convolutional layers. In all the layers the padding is set as *‘same’* so that the input and output will have the same. In order to use *‘same’* it was required to set the value of stride as 1. Therefore, no alternation has been done on stride and padding. The set up of each block is as followed in the table below. The number of input and output channels has been inspired by VGG16.
+
+| Table | Num. Layers | Kernel 1 | Kernel 2 | Kernel 3 | In channels | Out channels |
+|-------|-------------|----------|----------|----------|-------------|--------------|
+| 1     | 3           | 1        | 3        | 5        | 3           | 16           |
+| 2     | 3           | 1        | 3        | 5        | 16          | 32           |
+| 3     | 3           | 1        | 3        | 5        | 32          | 64           |
+| 4     | 3           | 1        | 3        | 5        | 64          | 128          |
+
+
